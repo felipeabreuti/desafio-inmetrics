@@ -1,0 +1,8 @@
+test_data: 
+  id: 
+  status_code_post: "201"
+  status_code_get: "200"
+  status_code_getall: "200"
+  status_code_put: "201"
+  status_code_delete: "200"
+#Status code seguindo documentação API
