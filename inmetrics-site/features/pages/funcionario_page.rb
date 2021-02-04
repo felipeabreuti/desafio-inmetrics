@@ -12,6 +12,8 @@ class FuncionarioPage < SitePrism::Page
   element :button_clicar, '.cadastrar-form-btn'
   element :input_pesquisar, '#tabela_filter > label > input[type=search]'
 
+
+
   def cadastrar( nome, cpf, sexo, data_admissao, cargo, salario, tipo_contracao)
     input_nome.send_keys(nome)
     input_cpf.send_keys(cpf)
@@ -24,7 +26,8 @@ class FuncionarioPage < SitePrism::Page
   end
 
   def alterar(busca, nome, cpf, sexo, data_admissao, cargo, salario, tipo_contracao)
-    input_pesquisar.set @busca
+    sleep 3
+    input_pesquisar.send_keys(busca)
     sleep 3
     button_alterar.click
     
@@ -39,7 +42,8 @@ class FuncionarioPage < SitePrism::Page
   end
 
   def deletar (busca)
-    input_pesquisar.set @busca
+    sleep 1
+    input_pesquisar.send_keys(busca)
     sleep 3
     button_deletar.click
   end
