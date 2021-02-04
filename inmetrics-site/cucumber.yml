@@ -3,7 +3,7 @@ default: -p html_report -p json_report -p chrome
 api_log: -p http_log -p api
 
 # Reports
-json_report: --format pretty --format json --out=report/rubocop.html.json
+json_report: --format pretty --format json --out=report/rubocop.json
 
 # Logs
 http_log: HTTP_LOG=true
