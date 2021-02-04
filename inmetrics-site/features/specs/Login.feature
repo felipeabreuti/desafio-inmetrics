@@ -3,10 +3,10 @@
 
 Funcionalidade: Realizar o login no sistema da Inmetrics para administrar funcionário
   Como um usuário do sistema
-  Quando realizar o login no sistema
+  Quero realizar o login no sistema
   Para visualizar a tela logada
 
-	@login_sucesso
+  @login_sucesso
   Cenario: Login com sucesso
     Dado que estou na página de login
     Quando eu faço login com usuário correto
