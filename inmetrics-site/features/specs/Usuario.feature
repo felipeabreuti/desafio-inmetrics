@@ -1,6 +1,7 @@
 #encoding:utf-8
 #language:pt
 
+@cadastro_usuario
 Funcionalidade: Realizar o cadastro do usuário no sistema da Inmetrics
   Como um usuário do sistema
   Quero realizar um cadastro do usuário

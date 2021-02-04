@@ -1,6 +1,7 @@
 #encoding:utf-8
 #language:pt
 
+@administrar_funcionario
 Funcionalidade: Administrar funcionário no sistema da Inmetrics
   Como um usuário do sistema
   Quero realizar uma ação no funcionários

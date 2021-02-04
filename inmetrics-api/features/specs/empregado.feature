@@ -1,6 +1,7 @@
 #encoding:utf-8
 #language:pt
 
+@administrar_empregado
 Funcionalidade: Manter dados de Empregado através da API
   Como um usuário do sistema
   Quero realizar as requisições na API

@@ -1,6 +1,7 @@
 #encoding:utf-8
 #language: pt
 
+@login_sistema
 Funcionalidade: Realizar o login no sistema da Inmetrics para administrar funcionário
   Como um usuário do sistema
   Quero realizar o login no sistema
